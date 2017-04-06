@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: wudanyang
- * Date: 2017/4/4
- * Time: 22:17
- */
 set_time_limit(0);
 ini_set('display_errors', 0);
 error_reporting(0);

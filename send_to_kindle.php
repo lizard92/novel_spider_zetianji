@@ -1,12 +1,5 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: wudanyang
- * Date: 2017/4/5
- * Time: 11:57
- */
-
-/**
  * you might want to overwrite these configs through include a config.php file.
  */
 $kindle_ad = '';

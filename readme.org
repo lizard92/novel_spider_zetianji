@@ -1,3 +1,22 @@
 * 小说 =择天记= 爬取程序
   因为我比较喜欢 =择天记= 这部小说, 且我有个 =kindle=, 且我忍受够了在起点的 =Android= 端阅读的体验.
   所以, 我通过不多的爬取经验, 爬取了一个网站上面的 =择天记= 小说.
+** 使用指南
+   运行主程序 =php main.php= , 会生成一个文件 =zetianji.txt=.
+
+
+   如果不用 =kindle= 或者想手动发送到 =kindle= 那么到这里就结束了.
+
+
+   如果想用程序发送到 =kindle= :
+   - 创建 =config.php=
+      #+BEGIN_SRC php
+      $kindle_ad = '';
+
+      $email_ad = '';
+      $email_pass = '';
+      $email_port = 0;
+      $email_smtp_ad = '';
+      $start_index = 0; // 起始章数
+      #+END_SRC
+   - 运行 =php send_to_kindle.php=

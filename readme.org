@@ -1,7 +1,22 @@
+#+TITLE: 小说《择天记》爬取程序
+#+DATE: <2017-04-07 Fri>
+#+TAGS: spider
+#+LAYOUT: post
+#+CATEGORIES: spider
+#+OPTIONS: ^:nil _:nil f:nil toc:nil num:t
+
 * 小说 =择天记= 爬取程序
   因为我比较喜欢 =择天记= 这部小说, 且我有个 =kindle=, 且我忍受够了在起点的 =Android= 端阅读的体验.
   所以, 我通过不多的爬取经验, 爬取了一个网站上面的 =择天记= 小说.
+
+
+  程序地址:[[https://github.com/wdy1184/novel_spider_zetianji][择天记爬取程序]]
 ** 使用指南
+   首先, 安装依赖.
+   #+BEGIN_SRC bash
+   composer install
+   #+END_SRC
+
    运行主程序 =php main.php= , 会生成一个文件 =zetianji.txt=.
 
 
@@ -20,3 +35,5 @@
       $start_index = 0; // 起始章数
       #+END_SRC
    - 运行 =php send_to_kindle.php=
+
+

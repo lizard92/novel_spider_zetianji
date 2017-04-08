@@ -29,9 +29,9 @@ if (!empty($kindle_ad)) {
         die('att fail');
     }
     $mail->isHTML(true);
-    $mail->Subject = 'zetianji';
-    $mail->Body    = 'zetianji';
-    $mail->AltBody = 'zetianji';
+    $mail->Subject = '择天记';
+    $mail->Body    = '择天记';
+    $mail->AltBody = '择天记';
     if(!$mail->send()) {
         echo 'Message could not be sent.';
         echo 'Mailer Error: ' . $mail->ErrorInfo;
